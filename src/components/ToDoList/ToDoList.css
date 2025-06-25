@@ -1,0 +1,128 @@
+.to-do-list {
+    background-color: rgba(255, 255, 255, 0.965);
+    text-align: center;
+    padding: 0 35px 15px;
+    border-radius: 6px;
+}
+.to-do-list h1 {
+    font-size: 50px;
+    margin: 0 auto 30px; 
+}
+.filter-to-dos button{
+    padding: 10px 7px;
+    color: rgb(36, 168, 175);
+    background-color: transparent;
+    border: 1px solid rgba(218, 112, 214, 0.422);
+    transition: 0.3s;
+}
+.filter-to-dos button:hover {
+    background-color: rgb(218, 112, 214);
+    color: white;
+    transform: scale(1.1);
+}
+.hold-all, .hold-checked, .hold-non-checked {
+    background-color: rgb(218, 112, 214) !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #4e10df;;
+    border-radius: 5px;
+    color: white;
+    max-width: 500px;
+    transition:  0.3s;
+}
+.task:hover {
+    transform: scale(1.1);
+}
+.checked-task {
+    background-color: #007980;
+}
+.content {
+    flex-basis: 60%;
+    text-align: start;
+}
+.content h2 {
+    margin: 0;
+}
+.content p {
+    margin: 0;
+}
+.icons {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    padding: 0 5px;
+}
+.icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.icon.icon-check {
+    background: #22c73fcf;
+    border: 1px solid white;
+}
+.checked-icon {
+    background: gold !important;
+    color: black;        
+}
+.icon.icon-edit {
+    background: #0070ff9c;
+    border: 1px solid #00fff3d6;
+}
+.icon.icon-delete {
+    background: #6f1233;
+    border: 1px solid red;
+}
+.new-task {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    flex-basis: 70%;
+    text-align: end;
+    padding: 15px;
+    border: 1px solid #000000b8;
+    outline: none;
+    font-size: 20px;
+}
+.new-task button {
+     flex: 1 1;
+    padding: 15px;
+    border-radius: 5px;
+    background: #b11052;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+.new-task button:hover {
+    background-color: #6f1233;
+    transform: scale(1.1);
+}
+.enaple-alert {
+    display: block;
+}
+.disaple-alert {
+    display: none !important;
+}
