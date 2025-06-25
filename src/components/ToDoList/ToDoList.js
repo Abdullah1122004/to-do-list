@@ -29,7 +29,7 @@ export default function ToDoList({PageType = 0}) {
     
     
     useEffect(() => {
-        alert("hi")
+        alert("مرحبآ وأهلآ وسهلآ")
     }, [])
     
 
@@ -159,7 +159,7 @@ export default function ToDoList({PageType = 0}) {
                     <input style={{textAlign: "start"}} value={NewTask} placeholder='عنوان المهمه' onChange={
                         (event) => {SetNewTask(event.target.value)}
                     }/>
-                    <button style={NewTask === "" ? {background: "gray"} : {}} disabled={NewTask === ""}  onClick={AddTask}>إضافه</button>
+                    <button  style={NewTask === "" ? {background: "gray"} : {}} disabled={NewTask === ""}  onClick={AddTask}>إضافه</button>
                 </section>
                     
 
