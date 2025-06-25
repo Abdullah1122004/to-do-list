@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/to-do-list/static/css/main.e4f719de.css",
-    "main.js": "/to-do-list/static/js/main.4683838e.js",
+    "main.css": "/to-do-list/static/css/main.f94450a9.css",
+    "main.js": "/to-do-list/static/js/main.906ec01a.js",
     "static/js/453.8d371e8c.chunk.js": "/to-do-list/static/js/453.8d371e8c.chunk.js",
+    "static/media/Cairo-Black.ttf": "/to-do-list/static/media/Cairo-Black.2f25e91c201e2b0413be.ttf",
+    "static/media/Cairo-ExtraBold.ttf": "/to-do-list/static/media/Cairo-ExtraBold.56e53c382dec0744f09a.ttf",
+    "static/media/Cairo-SemiBold.ttf": "/to-do-list/static/media/Cairo-SemiBold.21b3181241afba152b5f.ttf",
+    "static/media/Cairo-Bold.ttf": "/to-do-list/static/media/Cairo-Bold.43fca94586da8260c6c0.ttf",
+    "static/media/Cairo-Medium.ttf": "/to-do-list/static/media/Cairo-Medium.acfa28bf401d638be2ea.ttf",
+    "static/media/Cairo-Regular.ttf": "/to-do-list/static/media/Cairo-Regular.7f90aef7ab2eebf6a906.ttf",
+    "static/media/Cairo-Light.ttf": "/to-do-list/static/media/Cairo-Light.6600fd880fc596e317a4.ttf",
+    "static/media/Cairo-ExtraLight.ttf": "/to-do-list/static/media/Cairo-ExtraLight.968b2ddbf7a7eaea7af2.ttf",
     "index.html": "/to-do-list/index.html",
-    "main.e4f719de.css.map": "/to-do-list/static/css/main.e4f719de.css.map",
-    "main.4683838e.js.map": "/to-do-list/static/js/main.4683838e.js.map",
+    "main.f94450a9.css.map": "/to-do-list/static/css/main.f94450a9.css.map",
+    "main.906ec01a.js.map": "/to-do-list/static/js/main.906ec01a.js.map",
     "453.8d371e8c.chunk.js.map": "/to-do-list/static/js/453.8d371e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4f719de.css",
-    "static/js/main.4683838e.js"
+    "static/css/main.f94450a9.css",
+    "static/js/main.906ec01a.js"
   ]
 }
