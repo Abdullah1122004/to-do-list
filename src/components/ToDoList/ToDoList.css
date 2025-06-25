@@ -3,6 +3,8 @@
     text-align: center;
     padding: 0 35px 15px;
     border-radius: 6px;
+    max-height: 80vh;
+    overflow: scroll;
 }
 .to-do-list h1 {
     font-size: 50px;
@@ -120,9 +122,9 @@ input {
     background-color: #6f1233;
     transform: scale(1.1);
 }
-.enaple-alert {
+.enaple {
     display: block;
 }
-.disaple-alert {
+.disaple {
     display: none !important;
 }

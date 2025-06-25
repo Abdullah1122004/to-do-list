@@ -35,10 +35,18 @@ export default function ToDo({task, editIcon, AlertTitle, OpenAlert}) {
          if(!task.IsChecked) {
             AlertTitle("تم تحويل المهمه إلي المهام المنجزه بنجاح")
             OpenAlert(true)
+
+            setTimeout(() => {
+                OpenAlert(false)
+            }, 3000)
          }else {
             AlertTitle("تم تحويل المهمه إلي المهام غير المنجزه بنجاح")
             OpenAlert(true)
-         }
+            
+            setTimeout(() => {
+                OpenAlert(false)
+            }, 3000)
+        }
     }
 
     function DeleteTaskIcon() {
@@ -61,6 +69,10 @@ export default function ToDo({task, editIcon, AlertTitle, OpenAlert}) {
 
         AlertTitle("تم حذف المهمه بنجاح")
         OpenAlert(true)
+
+        setTimeout(() => {
+            OpenAlert(false)
+        }, 3000)
     }   
 
     return(

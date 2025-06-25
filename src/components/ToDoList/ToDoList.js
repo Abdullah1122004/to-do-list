@@ -91,10 +91,9 @@ export default function ToDoList({PageType = 0}) {
 
         SetAlertTitle("تم التعديل بنجاح")
         SetIsAlertOpen(true)
+
+        CloseAlert(3000)
     } 
-    
- 
-    
     
     function AddTask() {
         
@@ -115,15 +114,23 @@ export default function ToDoList({PageType = 0}) {
         
         SetAlertTitle("تم إضافة المهمه بنجاح")
         SetIsAlertOpen(true)
+
+        CloseAlert(3000)
     }
     
+
+    function CloseAlert(time)  {
+        setTimeout(() => {
+            SetIsAlertOpen(false)
+        }, time)
+    }
 
     return(
 
         <>
             <Alert severity="success"
             onClose={() => {SetIsAlertOpen(false)}}
-            className={IsAlertOpen ? 'enaple-alert' : 'disaple-alert'}  
+            className={IsAlertOpen ? 'enaple' : 'disaple'}  
             style={{position: "absolute", bottom: "0", left: "0", gap: "10px"}}
             >{AlertTitle}</Alert>
 
@@ -149,10 +156,10 @@ export default function ToDoList({PageType = 0}) {
                 </section>
 
                 <section className='new-task'>
-                    <input value={NewTask} placeholder='عنوان المهمه' onChange={
+                    <input style={{textAlign: "start"}} value={NewTask} placeholder='عنوان المهمه' onChange={
                         (event) => {SetNewTask(event.target.value)}
                     }/>
-                    <button onClick={AddTask}>إضافه</button>
+                    <button style={NewTask === "" ? {background: "gray"} : {}} disabled={NewTask === ""}  onClick={AddTask}>إضافه</button>
                 </section>
                     
 
