@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/to-do-list/static/css/main.9c601ad9.css",
-    "main.js": "/to-do-list/static/js/main.c638abf3.js",
+    "main.js": "/to-do-list/static/js/main.a5e47304.js",
     "static/js/453.8d371e8c.chunk.js": "/to-do-list/static/js/453.8d371e8c.chunk.js",
     "static/media/Cairo-Black.ttf": "/to-do-list/static/media/Cairo-Black.2f25e91c201e2b0413be.ttf",
     "static/media/Cairo-ExtraBold.ttf": "/to-do-list/static/media/Cairo-ExtraBold.56e53c382dec0744f09a.ttf",
@@ -13,11 +13,11 @@
     "static/media/Cairo-ExtraLight.ttf": "/to-do-list/static/media/Cairo-ExtraLight.968b2ddbf7a7eaea7af2.ttf",
     "index.html": "/to-do-list/index.html",
     "main.9c601ad9.css.map": "/to-do-list/static/css/main.9c601ad9.css.map",
-    "main.c638abf3.js.map": "/to-do-list/static/js/main.c638abf3.js.map",
+    "main.a5e47304.js.map": "/to-do-list/static/js/main.a5e47304.js.map",
     "453.8d371e8c.chunk.js.map": "/to-do-list/static/js/453.8d371e8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c601ad9.css",
-    "static/js/main.c638abf3.js"
+    "static/js/main.a5e47304.js"
   ]
 }
